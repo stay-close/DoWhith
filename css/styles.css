@@ -1,0 +1,49 @@
+:root {
+  --clr_theme: #325b97;
+  --clr_heading: #192252;
+  --clr_white: #ffffff;
+  --clr_para_light: #848fac;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+}
+section {
+  padding: 70px 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--clr_heading);
+}
+h3{
+    font-size: 20px;
+}
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.section_heading h2 {
+  font-size: 52px;
+}
+p {
+  line-height: 150%;
+  font-size: 18px;
+  color: var(--clr_para_light);
+}
+p.white_light {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.64);
+}
+p.white {
+  font-size: 18px;
+  color: var(--clr_white);
+}
