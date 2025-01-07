@@ -21,8 +21,8 @@ h6 {
   font-weight: 700;
   color: var(--clr_heading);
 }
-h3{
-    font-size: 20px;
+h3 {
+  font-size: 20px;
 }
 /* Remove default link styles */
 a {
@@ -47,3 +47,42 @@ p.white {
   font-size: 18px;
   color: var(--clr_white);
 }
+
+/* ==== Header Area ==== */
+
+.header_area {
+  background: var(--clr_white);
+  padding: 15px 0;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_menu nav ul {
+  display: flex;
+}
+.main_menu nav ul li a {
+  padding: 15px 35px;
+  color: #606d93;
+  font-weight: 500;
+}
+.main_menu nav ul li a:hover {
+  color: var(--clr_heading);
+  font-weight: 700;
+}
+
+.login .btn {
+  padding: 15px 35px;
+  background: #6345d5;
+  color: var(--clr_white);
+  border-radius: 8px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: 2px solid #6345d5;
+}
+.login .btn:hover {
+  color: #6345d5;
+  background: var(--clr_white);
+}
+/* ==== Header Area ==== */
