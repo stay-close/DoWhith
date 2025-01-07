@@ -278,3 +278,30 @@ span.blur_bg:nth-child(3) {
 }
 
 /* ==== Counter dashboard area ==== */
+
+/* ==== pay_and_receive_area ==== */
+
+.pay_and_receive_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  place-items: center;
+}
+.pay_and_receive_text_content .section_heading p {
+  padding: 20px 0 15px;
+}
+.pay_and_receive_text_content .section_heading ul li {
+  color: var(--clr_heading);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.pay_and_receive_text_content .section_heading ul li i {
+  color: #219653;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.pay_and_receive_video iframe {
+  border-radius: 10px;
+}
+/* ==== pay_and_receive_area ==== */
