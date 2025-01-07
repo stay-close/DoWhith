@@ -90,6 +90,7 @@ p.white {
 
 .banner_area {
   position: relative;
+  overflow-x: hidden;
 }
 span.blur_bg {
   position: absolute;
