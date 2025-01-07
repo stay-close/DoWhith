@@ -48,6 +48,123 @@ p.white {
   color: var(--clr_white);
 }
 
+/* ==== Header Area ==== */
+
+.header_area {
+  background: var(--clr_white);
+  padding: 15px 0;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_menu nav ul {
+  display: flex;
+}
+.main_menu nav ul li a {
+  padding: 15px 35px;
+  color: #606d93;
+  font-weight: 500;
+}
+.main_menu nav ul li a:hover {
+  color: var(--clr_heading);
+  font-weight: 700;
+}
+
+.login .btn {
+  padding: 15px 35px;
+  background: #6345d5;
+  color: var(--clr_white);
+  border-radius: 8px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: 2px solid #6345d5;
+}
+.login .btn:hover {
+  color: #6345d5;
+  background: var(--clr_white);
+}
+/* ==== Header Area ==== */
+/* ==== Banner Area ==== */
+
+.banner_area {
+  position: relative;
+}
+span.blur_bg {
+  position: absolute;
+  height: 540px;
+  width: 540px;
+  top: 0;
+  right: 0;
+  background: #6245d5;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(200px);
+}
+span.blur_bg:nth-child(1) {
+  top: -5%;
+  right: -5%;
+}
+span.blur_bg:nth-child(2) {
+  top: 15%;
+  right: 15%;
+  background-color: #fc8b5f;
+}
+span.blur_bg:nth-child(3) {
+  top: 40%;
+  left: 0%;
+  width: 350px;
+  height: 350px;
+}
+.banner_content {
+  min-height: 100vh;
+}
+.banner_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner_text_content,
+.banner_img {
+  flex: 1;
+}
+.banner_text_content h1 {
+  font-size: 80px;
+  line-height: 110%;
+}
+.banner_text_content p {
+  padding: 50px 0 35px;
+  line-height: 150%;
+  max-width: 350px;
+}
+.banner_btns .btn {
+  padding: 15px 35px;
+  margin-right: 20px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.banner_btns .btn:nth-child(1) {
+  background: #6245d5;
+  border: 2px solid #6245d5;
+  color: var(--clr_white);
+}
+.banner_btns .btn:nth-child(1):hover {
+  background: var(--clr_white);
+  color: #6245d5;
+}
+.banner_btns .btn:nth-child(2) {
+  background: var(--clr_white);
+  border: 2px solid var(--clr_white);
+  color: var(--clr_heading);
+}
+.banner_btns .btn:nth-child(2):hover {
+  background: #6245d5;
+  color: var(--clr_white);
+}
+
+/* ==== Banner Area ==== */
+
 /* ==== Counter dashboard area ==== */
 .counter_dashboard_area {
   background: #201353;
@@ -161,121 +278,3 @@ p.white {
 }
 
 /* ==== Counter dashboard area ==== */
-
-/* ==== Banner Area ==== */
-
-.banner_area {
-  position: relative;
-}
-span.blur_bg {
-  position: absolute;
-  height: 540px;
-  width: 540px;
-  top: 0;
-  right: 0;
-  background: #6245d5;
-  border-radius: 50%;
-  z-index: -1;
-  filter: blur(200px);
-}
-span.blur_bg:nth-child(1) {
-  top: -5%;
-  right: -5%;
-}
-span.blur_bg:nth-child(2) {
-  top: 15%;
-  right: 15%;
-  background-color: #fc8b5f;
-}
-span.blur_bg:nth-child(3) {
-  top: 40%;
-  left: 0%;
-  width: 350px;
-  height: 350px;
-}
-.banner_content {
-  min-height: 100vh;
-}
-.banner_content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.banner_text_content,
-.banner_img {
-  flex: 1;
-}
-.banner_text_content h1 {
-  font-size: 80px;
-  line-height: 110%;
-}
-.banner_text_content p {
-  padding: 50px 0 35px;
-  line-height: 150%;
-  max-width: 350px;
-}
-.banner_btns .btn {
-  padding: 15px 35px;
-  margin-right: 20px;
-  border-radius: 8px;
-  font-weight: 700;
-}
-.banner_btns .btn:nth-child(1) {
-  background: #6245d5;
-  border: 2px solid #6245d5;
-  color: var(--clr_white);
-}
-.banner_btns .btn:nth-child(1):hover {
-  background: var(--clr_white);
-  color: #6245d5;
-}
-.banner_btns .btn:nth-child(2) {
-  background: var(--clr_white);
-  border: 2px solid var(--clr_white);
-  color: var(--clr_heading);
-}
-.banner_btns .btn:nth-child(2):hover {
-  background: #6245d5;
-  color: var(--clr_white);
-}
-
-/* ==== Banner Area ==== */
-
-/* ==== Header Area ==== */
-
-.header_area {
-  background: var(--clr_white);
-  padding: 15px 0;
-}
-.header_content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.main_menu nav ul {
-  display: flex;
-}
-.main_menu nav ul li a {
-  padding: 15px 35px;
-  color: #606d93;
-  font-weight: 500;
-}
-.main_menu nav ul li a:hover {
-  color: var(--clr_heading);
-  font-weight: 700;
-}
-
-.login .btn {
-  padding: 15px 35px;
-  background: #6345d5;
-  color: var(--clr_white);
-  border-radius: 8px;
-  font-weight: 700;
-  text-transform: capitalize;
-  border: 2px solid #6345d5;
-}
-.login .btn:hover {
-  color: #6345d5;
-  background: var(--clr_white);
-}
-/* ==== Header Area ==== */
