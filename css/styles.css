@@ -24,6 +24,8 @@ h6 {
 
 h3 {
   font-size: 20px;
+h3 {
+  font-size: 20px;
 }
 /* Remove default link styles */
 a {
@@ -48,6 +50,120 @@ p.white {
   font-size: 18px;
   color: var(--clr_white);
 }
+
+/* ==== Counter dashboard area ==== */
+.counter_dashboard_area {
+  background: #201353;
+  padding-bottom: 0;
+}
+.counter_list {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+.counter_list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+.counter_list ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.counter_list ul li h3 {
+  font-size: 48px;
+  color: var(--clr_white);
+}
+.counter_list ul li p {
+  position: relative;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.64);
+  font-weight: 500;
+}
+.counter_list ul li p::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  right: -50px;
+  top: 0;
+}
+.counter_list ul li:last-child p::after {
+  display: none;
+}
+.dashboard_area {
+  padding-top: 70px;
+}
+.dashboard_area .section_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.dashboard_area .section_heading h2,
+.dashboard_area .section_heading p {
+  flex: 1;
+}
+.dashboard_area .section_heading h2 {
+  color: var(--clr_white);
+}
+.dashboard_content {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.single_content {
+  padding: 20px 15px;
+  border-radius: 8px;
+  background: var(--clr_white);
+  margin-bottom: 30px;
+}
+.single_content .icon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.single_content .icon i {
+  width: 48px;
+  height: 48px;
+  background: #6245d5;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.single_content .icon h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.text_content p {
+  font-size: 16px;
+  line-height: 150%;
+  padding: 20px 0;
+  max-width: 75%;
+}
+.bar {
+  position: relative;
+  height: 3px;
+  background: #eff3fa;
+}
+.bar::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-color: #6245d5;
+  left: 0;
+  top: 0;
+}
+
+/* ==== Counter dashboard area ==== */
 
 /* ==== Banner Area ==== */
 
