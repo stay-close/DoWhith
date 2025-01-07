@@ -49,5 +49,13 @@ p.white {
 }
 
 /* ==== our supporter area ==== */
-
+.our_supporter_content p {
+  text-align: center;
+}
+.supporter_list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
 /* ==== our supporter area ==== */
