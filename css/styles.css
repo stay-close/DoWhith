@@ -305,3 +305,15 @@ span.blur_bg:nth-child(3) {
   border-radius: 10px;
 }
 /* ==== pay_and_receive_area ==== */
+
+/* ==== our supporter area ==== */
+.our_supporter_content p {
+  text-align: center;
+}
+.supporter_list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+/* ==== our supporter area ==== */
