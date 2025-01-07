@@ -21,8 +21,8 @@ h6 {
   font-weight: 700;
   color: var(--clr_heading);
 }
-h3{
-    font-size: 20px;
+h3 {
+  font-size: 20px;
 }
 /* Remove default link styles */
 a {
@@ -47,3 +47,47 @@ p.white {
   font-size: 18px;
   color: var(--clr_white);
 }
+
+/* ==== Counter dashboard area ==== */
+.counter_dashboard_area {
+  background: #201353;
+}
+.counter_list {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+}
+.counter_list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+.counter_list ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.counter_list ul li h3 {
+  font-size: 48px;
+  color: var(--clr_white);
+}
+.counter_list ul li p {
+  position: relative;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.64);
+  font-weight: 500;
+}
+.counter_list ul li p::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  right: -50px;
+  top: 0;
+}
+.counter_list ul li:last-child p::after {
+  display: none;
+}
+
+/* ==== Counter dashboard area ==== */
